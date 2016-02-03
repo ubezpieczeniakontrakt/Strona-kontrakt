@@ -214,18 +214,6 @@ $(function () {
     var lastWindowHeight = $(window).height();
     var lastWindowWidth = $(window).width();
 
-    var video = $("video")[0];
-    $(video).on('click', function(e){
-        video.play();
-        if (video.requestFullscreen) {
-            video.requestFullscreen();
-        } else if (video.mozRequestFullScreen) {
-            video.mozRequestFullScreen();
-        } else if (video.webkitRequestFullscreen) {
-            video.webkitRequestFullscreen();
-        }
-    });
-
     $(window).resize(function() {
 
         if((window.fullScreen) || (window.innerWidth == screen.width && window.innerHeight == screen.height)) {

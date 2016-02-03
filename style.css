@@ -304,7 +304,7 @@ body{
 
 .contextFirma a {text-decoration: none;border-bottom: 1px solid #2C3459}
 
-.contextFirma a:hover {color:#7DBA2F;border-bottom: 1px solid #7DBA2F }
+.contextFirma a:hover {color:blue;border-bottom: 1px solid blue }
 
 .main .contextFirma ul{
     list-style: none;
