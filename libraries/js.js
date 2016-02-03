@@ -215,13 +215,17 @@ $(function () {
     var lastWindowWidth = $(window).width();
 
     $(window).resize(function() {
-        if($(window).height()!=lastWindowHeight || $(window).width()!=lastWindowWidth){
+
+        if((window.fullScreen) || (window.innerWidth == screen.width && window.innerHeight == screen.height)) {
+
+        } else if($(window).height()!=lastWindowHeight || $(window).width()!=lastWindowWidth){
 
             lastWindowHeight = $(window).height();
             lastWindowWidth = $(window).width();
 
             location.reload();
-        }
+        };
+
     });
 
 
