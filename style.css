@@ -84,6 +84,7 @@ body{
 
  .kontakt .formularz h4{
     font-size: 1em;
+    font-family: 'Signika',"sans-serif";
 }
 
 .ss-form-question {display: inline-block; width:40%}
@@ -301,6 +302,10 @@ body{
     margin-top:5em;
 }
 
+.contextFirma a {text-decoration: none;border-bottom: 1px solid #2C3459}
+
+.contextFirma a:hover {color:#7DBA2F;border-bottom: 1px solid #7DBA2F }
+
 .main .contextFirma ul{
     list-style: none;
     padding: 0;
@@ -363,6 +368,7 @@ body{
     height: 49px;
     font-size: 0.875em;
     cursor: pointer;
+    font-family: 'Signika',"sans-serif";
 }
 
 .main .context button:hover, .formularz button:hover, .jfk-button:hover{
@@ -371,7 +377,7 @@ body{
     transition: color 0.6s, background 0.6s;
 }
 
-.main .context p, .contextFirma p, .context ul li, .descriptions p, .descriptions ul li {
+.main .context p, .contextFirma p, .contextFirma a, .context ul li, .descriptions p, .descriptions ul li {
     color:#2C3459;
     font-size: 1em;
     font-weight: 300;
@@ -392,6 +398,7 @@ body{
 }
 
 .ftr{
+    font-family: 'Signika',"sans-serif";
     overflow: hidden;
     position: fixed;
     width: 100%;
